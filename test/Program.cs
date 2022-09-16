@@ -43,4 +43,41 @@ else {
 } */
 
 
+ /* Напишите программу, которая выводит третью цифру заданного числа 
+ ли сообщает, что третьей цифры нет.
+645 -> 6
+78 -> третьей цифры нет
+32679 -> 6
+75742979834 -> 8 */
+
+
+//int n = new Random().Next(10,1000000000);
+
+/* System.Console.WriteLine("Введите число a: ");
+int a = Convert.ToInt32(Console.ReadLine()); */
+
+System.Console.WriteLine("Введите число a: ");
+int a = Convert.ToInt32(Console.ReadLine());
+
+int result = a / 100 % 10;
+
+System.Console.WriteLine($"{a}->{result}");
+
+
+/* int max = 9;
+int d1 = a/100;
+
+if (d1<=max){
+    System.Console.WriteLine($"{a} -> {d1}");
+        else  (d1 == 0 ){ 
+        System.Console.WriteLine("{d1} -> третьей цифры нет");
+        }    
+}
+  */
+
+
+
+
+
+
 
